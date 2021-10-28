@@ -14,9 +14,7 @@ var calcButton = document.querySelector("#calcButton");
 function calcFeet(feet) {
     return feet * 0.3048;
 }
-//console.log(calcFeet(1));
 calcButton.addEventListener('click', function (event) {
-    //console.log(calcFeet);
     var res = calcFeet(+feet.value);
-    result.value = String(res);
+    result.value = String(res + "méter");
 });

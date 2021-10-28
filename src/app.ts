@@ -20,5 +20,5 @@ function calcFeet(feet:number):number {
 calcButton.addEventListener('click', event => {
 
     let res = calcFeet(+feet.value,);
-    result.value = String(res);
+    result.value = String(res + " méter");
 });
